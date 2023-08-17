@@ -15,6 +15,6 @@
         "symfony/dependency-injection": "^6.2"
     },
     "autoload": {
-        "psr-4": {"Crimsoncircle": "src/"}
+        "psr-4": {"Crimsoncircle\\": "src/"}
     }
 }
