@@ -9,8 +9,9 @@ class LeapYearController
 {
     public function index(Request $request, int $year): string
     {
-        echo $request->query->get('filter');
+        // echo $request->query->get('filter');
         $leapYear = new LeapYear();
+
         if ($leapYear->isLeapYear($year)) {
             return 'Yep, this is a leap year!';
         }

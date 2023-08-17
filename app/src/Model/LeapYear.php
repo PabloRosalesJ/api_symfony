@@ -4,9 +4,8 @@ namespace Crimsoncircle\Model;
 
 class LeapYear
 {
-    public function isLeapYear(int? $year): int
+    public function isLeapYear(?int $year): int
     {
-        //TODO: Logic must be implemented to calculate if a year is a leap year
-        return 0;
+        return $year % 4 == 0;
     }
 }
