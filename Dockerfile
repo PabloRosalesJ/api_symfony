@@ -10,5 +10,7 @@ RUN apt-get update && apt-get install -y \
         && docker-php-ext-install mysqli pdo pdo_mysql \
         && docker-php-ext-install zip
 
+EXPOSE 9000
+
 RUN curl --insecure https://getcomposer.org/download/2.5.1/composer.phar -o \
         /usr/bin/composer && chmod +x /usr/bin/composer
