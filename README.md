@@ -157,3 +157,9 @@ GET http://localhost:8080/comment/post/123456?page=1
 **NOTE:** you can retrieve the page parameter using the following way:
 
 `$request->query->get('page'), which $request variable is an instance of Symfony\Component\HttpFoundation\Request class`
+
+
+# SetUp
+1.- Crear DB app
+
+2.- Descomentar solo en el primer request en Backend_Challenge/app/front.php, para crear las tablas necesarias, el contenido dentro de comentarios `/* Create table with blueprint */` y `/* END Create table with blueprint */`
