@@ -12,7 +12,9 @@
         "symfony/routing": "^6.2",
         "symfony/http-kernel": "^6.2",
         "symfony/event-dispatcher": "^6.2",
-        "symfony/dependency-injection": "^6.2"
+        "symfony/dependency-injection": "^6.2",
+        "illuminate/database": "^10.19",
+        "illuminate/pagination": "^10.19"
     },
     "autoload": {
         "psr-4": {"Crimsoncircle\\": "src/"}
